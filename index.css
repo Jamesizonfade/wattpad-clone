@@ -1,0 +1,690 @@
+/* headers */
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: rgba(121, 112, 112, 0.897);
+}
+
+h6 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+/* navigation segment */
+
+.my-brand {
+    color: #ff6122;
+    margin: 0 3rem 0 5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+
+.nav-item-header {
+    color: black;
+}
+
+.navi-sec {
+    background-color: white;
+    z-index: 2;
+}
+
+.nav-txt {
+    margin: 0 0.5rem;
+    font-style: normal;
+    color: black;
+}
+
+.a-text {
+    color: black;
+}
+
+.nav-search {
+    border: none;
+    width: 6rem;
+    background-color: white;
+    padding: 0;
+}
+
+.nav-search:focus {
+    border: 2px solid white;
+}
+
+.search-button {
+    margin-right: 0.3rem;
+    padding: 0;
+}
+
+.second-nav-list {
+    margin-left: 12rem;
+}
+
+
+/* shapes segment */
+
+.shape-container {
+    height: 43rem;
+    max-width: 100%;
+    object-fit:cover;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    top: -3rem;
+  }
+  
+  .shape1 {
+    width: 40rem;
+    height: 14rem;
+    background-color: #ff6122;
+    border-radius: 20rem;
+    transform: skewY(-20deg);
+    position: absolute;
+    right: -6rem;
+    transform: rotate(-10deg);
+  }
+  
+  .shape2 {
+    width: 40rem;
+    height: 20rem;
+    background-color: #ff6122;
+    border-radius: 50%;
+    transform: skewY(-20deg);
+    position: absolute;
+    top: 10rem;
+    right: -15rem;
+    transform: rotate(-20deg);
+  }
+  
+  .shape3 {
+    width: 18rem;
+    height: 14rem;
+    background-color: #ff6122;
+    border-radius: 12rem;
+    transform: skewY(-20deg);
+    position: absolute;
+    top: 27rem;
+    right: -14rem;
+    transform: rotate(-3deg);
+  }
+
+
+  .shape4 {
+    width: 20rem;
+    height: 12rem;
+    background-color: #ff6122;
+    border-radius: 12rem;
+    position: absolute;
+    top: 0;
+    left: -13rem;
+    transform: rotate(20deg);
+  }
+  
+  
+  .shape5 {
+    width: 30rem;
+    height: 11rem;
+    background-color: #ff6122;
+    border-radius: 20rem;
+    position: absolute;
+    top: 13rem;
+    left: -15rem;
+    transform: rotate(42deg);
+  }
+  
+  .shape6 {
+    width: 30rem;
+    height: 11rem;
+    background-color: #ff6122;
+    border-radius: 20rem;
+    position: absolute;
+    top: 28rem;
+    left: -14rem;
+    transform: rotate(42deg);
+  }
+  
+  .shape7 {
+    width: 30rem;
+    height: 11rem;
+    background-color: #ff6122;
+    border-radius: 20rem;
+    position: absolute;
+    top: 35.5rem;
+    left: -21rem;
+    transform: rotate(45deg);
+  }
+  
+
+/* welcome to wattpad */
+
+  .welcome-image-div {
+      position: absolute;
+      top: 16rem;
+      right: 7rem;
+    }
+
+  .welcome-image {
+      height: 23rem;
+  }
+
+
+  .welcome-container {
+      position: absolute;
+      top: 11rem;
+      width: 45%;
+      left: 6.5rem;
+      z-index: 2;
+  }
+
+  .welcome-button {
+      background-color: #ff6122;
+      margin-right: 1rem;
+      width: 11rem;
+      height: 2.8rem;
+      color: white;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border-radius: 0.5rem;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .welcome-heading {
+      margin-bottom: 2.7rem;
+      color: #ff6122;
+      font-family: 'Varela Round', sans-serif;
+      font-weight: bold;
+      font-size: 3.5rem;
+  }
+
+  .welcome-sub-heading {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .welcome-paragraph {
+      font-family: 'Varela Round', sans-serif;
+      font-size: 1.15rem;
+      margin-bottom: 3rem;
+  }
+
+/* wattpad stories */
+
+.stories-container {
+  height: 80rem;
+  max-width: 100%;
+  object-fit:cover;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.see-your-stories {
+  text-align: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.stories-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  font-family: 'Varela Round', sans-serif;
+  margin-right: 6rem;
+}
+
+.story-heading {
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.stories-sec > div {
+  margin: 0 4rem;
+  font-weight: bold;
+}
+
+/* wattpad studios */
+
+#studios {
+  display: flex;
+  flex-direction: row;
+  margin-left: 11rem;
+  margin-top: 6rem;
+}
+
+#studios >div {
+  margin: 0 0.2rem;
+  text-align: left;
+}
+
+.studio-image {
+  height: 15rem;
+}
+
+.studio-logo {
+  color: #ff6122;
+  margin-bottom: 2rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+.studio-heading {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 1.35rem;
+  margin-bottom: 1.4rem;
+}
+
+.studio-paragraph, .books-paragraph {
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  word-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.studio-icons > img {
+  margin: 0 3rem 0 0;
+}
+
+
+/* wattpad books */
+
+#books {
+  display: flex;
+  flex-direction: row;
+  margin-left: 14rem;
+  margin-top: 8rem;
+}
+
+.books-description {
+  margin-top: 4rem;
+}
+.books-space {
+  height: 2rem;
+}
+
+
+.books-image {
+  height: 20rem;
+}
+
+#books >div {
+  margin: 0 2rem;
+  text-align: right;
+}
+
+.books-heading {
+  font-weight: bold;
+  font-size: 1.35rem;
+  margin-bottom: 1.4rem;
+}
+
+
+.books-icon-image {
+  margin: 0 0 0 2.5rem;
+  height: 1.3rem;
+}
+
+.books-icon-penguin {
+  margin: 0 0 0 2.5rem;
+  height: 2.2rem;
+}
+
+.stories-footer-message {
+  margin: 8rem 0;
+  font-size: 1.15rem;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 2rem;
+}
+
+/* how wattpad works */
+
+#how-wattpad-works {
+  background-color: #fafafa;
+  padding: 3rem 3rem;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: -0.05rem;
+}
+
+.hww-heading-segment {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hww-heading {
+  margin-bottom: 2rem;
+}
+
+.cba {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cba-content {
+  text-align: left;
+}
+
+.cba > div {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem;
+}
+
+
+.large-numbers {
+  font-size: 5.5rem;
+  font-weight: bold;
+  float: left;
+  line-height: 0.4;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.community {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.community > div {
+  margin: 3rem 1.5rem;
+}
+
+.count-containers {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  color: #fafafa;;
+}
+
+
+.count {
+  text-align: center;
+  font-weight: 800;
+  line-height: 0.5;
+  font-size: 2rem;
+
+}
+
+.count-content {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+  line-height: 0;
+}
+
+.count-content2 {
+  position: absolute;
+  top: 2.5rem;
+  right: 4rem;
+  line-height: 0;
+  text-align: center;
+}
+
+.count-content3 {
+  position: absolute;
+  top: 2.5rem;
+  right: 5rem;
+  line-height: 0;
+}
+
+
+/* carousel-segment */
+
+#carousel-content {
+  background-color: rgb(253, 252, 251);
+  padding: 5rem 4rem;
+  height: 40rem;
+  overflow: hidden;
+  }
+  
+  .testimony-image {
+    height: 410px;
+    float: left;
+    margin: 2rem 2rem 2rem 6rem;
+  }
+  
+  .testimony-content {
+    padding-right: 3rem;
+    text-align: left;
+  }
+  
+  .quote {
+    float: left;
+    margin-left: -6rem;
+  }
+  
+  .quote-content {
+    width: 96%;
+  }
+  
+  .quote-icon {
+    font-size: 4rem;
+    color: #0b9ca3;
+  }
+  
+  .quote-statement {
+    line-height: 2rem;
+  }
+  
+  .quote-author {
+    text-align: right;
+    margin-top: 1rem;
+    color: rgba(121, 112, 112, 0.897);
+  }
+  
+  .about1, .about2, .about3, .about4, .about5 {
+    font-weight: 500;
+  }
+
+  .about1 {
+    margin-bottom: 4rem;
+  }
+
+  .about2 {
+    margin-bottom: 3.5rem;
+  }
+
+  .about3, .about5 {
+    margin-bottom: 3rem;
+  }
+
+  .about4 {
+    margin-bottom: 2rem;
+  }
+
+  
+  .testimony-button1 {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: rgb(244, 246, 250);
+    background-color: #00b2b2;
+    font-weight: bold;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 7px;
+  }
+  
+  .testimony-button2, .testimony-button3, .testimony-button4, .testimony-button5 {
+    margin: 3rem 0;
+    color: rgb(244, 246, 250);
+    background-color: #00b2b2;
+    font-weight: bold;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 7px;
+  }
+  
+  
+  
+  .next-button {
+    color: #00b2b2;
+    font-size: 5rem;
+    background-color: white;
+    margin-left: 0.5rem;
+  }
+
+  
+  
+  .carousel-indicator-area {
+    left: 39rem;
+    right: -11rem;
+    bottom: 2rem;
+    position: absolute;
+  }
+  
+  .carousel-indicators .testimony-indicator {
+    text-align: right;
+    background-color: #ff6122;
+    height: 0.7rem;
+    width: 4rem;
+  }
+
+  /* Discover on wattpad */
+
+  #discovery {
+   padding: 8rem 4rem 4rem;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgba(236, 240, 241, 0.438);
+  }
+
+#discovery > h2 {
+  margin-left: 3.8rem;
+}
+
+  .discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .discover > div {
+    margin: 2rem 3rem;
+  }
+
+
+  .links-image-content {
+    position: relative;
+  }
+
+  .links-image {
+    height: 300px;
+    z-index: 1;
+    position: relative;
+
+  }
+
+  .links-image-background {
+    background-color: #00b2b2;
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    top: 2rem;
+    left: 2rem
+  }
+
+  .info {
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+
+  .info > h3:hover {
+    color: #00b2b2;
+  }
+
+  .info > p {
+    font-size: 0.9rem;
+  }
+
+
+  /* take wattpad with you */
+
+  #TakeWPwithYou {
+    height: 43rem;
+    width: 100%;
+    background-image: url("images/wattpad-wall.png");
+    margin-bottom: 3rem;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #TakeWPwithYou > h4 {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 2rem;
+  }
+  #TakeWPwithYou > p {
+    color: #ffffff;
+  }
+
+  .sr-sw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sr-sw-button {
+    background-color: #ff6122;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 12rem;
+    height: 3rem;
+    margin: 2rem 1rem;
+    border-radius: 8px;
+  }
+
+  .sr-sw-button:hover {
+    color: #ffffff;
+  }
+
+  .footer-image {
+    height: 500px;
+    margin: 1rem 0;
+  }
+
+  /* footer segment */
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  footer > span> a {
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .terms {
+    margin-left: 6rem;
+    float: right;
+  }
+
+  .terms > a {
+    color: rgba(121, 112, 112, 0.897);
+  }
